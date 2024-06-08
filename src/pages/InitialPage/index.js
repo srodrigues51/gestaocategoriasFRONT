@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importe o Link se ainda não o fez
+import { Link } from 'react-router-dom'; 
 
-function Home() {
+function Initialpage() {
   return (
     <div className='nav-bar-fixed'>
       <nav className='nav-container'>
@@ -32,4 +32,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Initialpage;
