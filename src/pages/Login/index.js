@@ -19,7 +19,7 @@ function Login() {
           <label>Informe sua senha</label>
           <input type="password" id="lpassword" name="lpassword"  />
         </form>
-        <button className="waves-effect waves-light btn center" > Login </button>
+        <button className="waves-effect waves-light btn center" ><Link to="/home" className="waves-effect waves-light btn-large">Logi</Link>  </button>
       </div>
     </div>
 
